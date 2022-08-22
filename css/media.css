@@ -6,279 +6,297 @@
 
 @media (max-width: 1440px) {
     .container {
-        max-width: 1200px;
+      max-width: 1200px;
     }
-}
-
-@media (max-width: 1336px) {}
-
-@media (max-width: 1140px) {
+  }
+  
+  @media (max-width: 1140px) {
     .container {
-        max-width: 1100px;
+      max-width: 1100px;
     }
-}
-
-@media (max-width: 1024px) {
+  }
+  
+  @media (max-width: 1024px) {
     .container {
-        max-width: 970px;
+      max-width: 970px;
     }
-
+  
     .header-setup,
     .exit {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        gap: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 20px;
     }
-
+  
     .header__link {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .header-setup a {
-        font-size: 32px;
-        color: #000;
+      font-size: 32px;
+      color: #000;
     }
-
+  
     .header__list {
-        position: fixed;
-        top: 0;
-        right: -180px;
-        bottom: 0;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        z-index: 1000;
-        background: #f8f8f8;
-        height: 100%;
-        width: 180px;
-        -webkit-transition: 0.8s;
-        -o-transition: 0.8s;
-        transition: 0.8s;
-        text-align: center;
+      position: fixed;
+      top: 0;
+      right: -180px;
+      bottom: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      z-index: 1000;
+      background: #f8f8f8;
+      height: 100%;
+      width: 180px;
+      -webkit-transition: 0.8s;
+      -o-transition: 0.8s;
+      transition: 0.8s;
+      text-align: center;
     }
-
+  
     .header__contacts {
-        display: none;
+      display: none;
     }
-
+  
     .product__cards {
-        justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
-
+  
     section {
-        padding: 10px 0;
+      padding: 10px 0;
     }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .container {
-        max-width: 750px;
+      max-width: 750px;
     }
-
+  
     .header__banner-banner {
-        display: none;
+      display: none;
     }
-
+  
     .feature__cards {
-        justify-content: center;
-        flex-flow: wrap;
-        gap: 30px 50px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+      gap: 30px 50px;
     }
-
+  
     .gallery .container {
-        flex-direction: column;
-        align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
     }
-
+  
     .gallery__banner-big {
-        height: 500px;
-        width: 700px;
+      height: 500px;
+      width: 700px;
     }
-
+  
     .gallery__banner-small {
-        height: 350px;
-        width: 700px;
+      height: 350px;
+      width: 700px;
     }
-
+  
     .special__cards {
-        flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
-
+  
     .special__card {
-        margin-bottom: 20px;
-        width: 70%;
+      margin-bottom: 20px;
+      width: 70%;
     }
-
+  
     .title {
-        font-size: 32px;
-        text-align: center;
+      font-size: 32px;
+      text-align: center;
     }
-}
-
-@media (max-width: 684px) {
+  }
+  
+  @media (max-width: 684px) {
     .container {
-        max-width: 654px;
+      max-width: 654px;
     }
-
+  
     .gallery__banner-big,
     .gallery__banner-small {
-        width: 600px;
-        background-position: center right;
+      width: 600px;
+      background-position: center right;
     }
-
+  
     .info-desc {
-        margin-left: 25px;
+      margin-left: 25px;
     }
-}
-
-@media (max-width: 576px) {
+  }
+  
+  @media (max-width: 576px) {
     .container {
-        max-width: 550px;
+      max-width: 550px;
     }
-
+  
     .banner .container {
-        flex-direction: column;
-        padding: 50px;
-        min-height: unset;
-        min-height: 600px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 50px;
+      min-height: unset;
+      min-height: 600px;
     }
-
+  
     .banner__blocks {
-        flex-direction: unset;
+      -webkit-box-orient: unset;
+      -webkit-box-direction: unset;
+          -ms-flex-direction: unset;
+              flex-direction: unset;
     }
-
+  
     .gallery__banner-big,
     .gallery__banner-small {
-        width: 550px;
-        background-position: center right;
+      width: 550px;
+      background-position: center right;
     }
-
+  
     .product__card,
     .product__card-img {
-        max-width: 250px;
+      max-width: 250px;
     }
-
+  
     .info .container {
-        flex-direction: column-reverse;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
     }
-
-}
-
-@media (max-width: 414px) {
+  }
+  
+  @media (max-width: 414px) {
     .container {
-        max-width: 400px;
+      max-width: 400px;
     }
-
+  
     .header__banner-title {
-        font-size: 32px;
+      font-size: 32px;
     }
-
+  
     .gallery__banner-big,
     .gallery__banner-small {
-        width: 400px;
-        height: 200px;
+      width: 400px;
+      height: 200px;
     }
-
+  
     .gallery__banner-big {
-        height: 350px;
+      height: 350px;
     }
-
+  
     .banner__block {
-        width: 180px;
-        height: 180px;
+      width: 180px;
+      height: 180px;
     }
-
+  
     .special__card {
-        width: 95%;
+      width: 95%;
     }
-
+  
     .product__card,
     .product__card-img {
-        max-width: 360px;
+      max-width: 360px;
     }
-
+  
     .boxInfo {
-        padding: 10px;
-        font-size: 14px;
+      padding: 10px;
+      font-size: 14px;
     }
-
-}
-
-@media (max-width: 390px) {
+  }
+  
+  @media (max-width: 390px) {
     .container {
-        max-width: 360px;
+      max-width: 360px;
     }
-
+  
     .banner .container {
-        min-height: unset;
+      min-height: unset;
     }
-
+  
     .banner__blocks {
-        display: none;
+      display: none;
     }
-
+  
     .gallery__banner-big,
     .gallery__banner-small {
-        width: 360px;
+      width: 360px;
     }
-
+  
     .gallery__banner-title {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .gallery__banner-span {
-        font-size: 16px;
+      font-size: 16px;
     }
-
+  
     .special__card-name {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .special__card-txt {
-        max-width: 150px;
+      max-width: 150px;
     }
-
+  
     .info-desc-title {
-        font-size: 24px;
+      font-size: 24px;
     }
-
+  
     .info-desc-txt,
     .info-desc-btn {
-        font-size: 16px;
+      font-size: 16px;
     }
-}
-
-@media (max-width: 360px) {
+  }
+  
+  @media (max-width: 360px) {
     .container {
-        max-width: 320px;
+      max-width: 320px;
     }
-
+  
     .header__banner-collection,
     .header__banner-txt {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .header__banner-title {
-        font-size: 28px;
+      font-size: 28px;
     }
-
+  
     .header__logo {
-        max-width: 150px;
+      max-width: 150px;
     }
-
+  
     .gallery__banner-big,
     .gallery__banner-small {
-        width: 320px;
+      width: 320px;
     }
-}
-
-@media (max-width: 320px) {
+  }
+  
+  @media (max-width: 320px) {
     .container {
-        max-width: 300px;
+      max-width: 300px;
     }
-}
+  }
